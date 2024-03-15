@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function streamAudio(URL, title) {
-      mediaElement.src = `http://localhost:4000/stream?URL=${URL}&title=${encodeURIComponent(title)}`; // Set the src attribute of the <video> element to the streaming URL
+      mediaElement.src = `https://musicboi.vercel.app//stream?URL=${URL}&title=${encodeURIComponent(title)}`; // Set the src attribute of the <video> element to the streaming URL
       mediaElement.play(); // Play the audio stream
   }
 });
